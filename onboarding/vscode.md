@@ -1,0 +1,4 @@
+- Installer Visual Studio Code (VSCode) : Télécharge et installe VSCode depuis le site officiel : https://code.visualstudio.com/.
+- Se connecter avec son compte compte Github
+- Demander à l'assistant de DL le repo skills : https://github.com/binarii-io/open-work-skills.git
+- Faites confiance à vous même
