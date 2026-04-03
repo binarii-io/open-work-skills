@@ -19,13 +19,19 @@ Which language(s) should be used for team communication and documentation?
 
 **→ Answer and I'll save this to the context file.**
 
-## Step 2: Configure Documentation Base
+## Step 2: Documentation Base
 Where does your team store organizational knowledge and documentation?
 - **Confluence**: Atlassian Confluence wiki (provide workspace URL)
 - **Notion**: Notion workspace (provide workspace URL/ID)
-- **Local**: GitHub, files, or local storage (describe location)
+- **Local**: Documentation stored locally only
 
-**→ Provide links/URLs and I'll document this.**
+**→ Indicate your choice and provide links/URLs if applicable.**
+
+> **📁 Rule (non-negotiable)**: A `docs/` folder will always be created in the repository.
+> - If **Local**: `docs/` is your documentation base — everything lives there.
+> - If **Confluence/Notion**: `docs/` is a local staging area — documents are written here first, then pushed to the online platform.
+>
+> In all cases, `docs/` is the working directory for documentation.
 
 ## Step 3: MCPs (Model Context Protocol) Configuration
 What MCPs should be enabled for this repository?

@@ -1,0 +1,10 @@
+{
+    "servers": {
+        /*"confluence-mcp": {
+        "command": "/local/path/python",
+        "args": [
+            "/local/path/server.py"
+        ]
+        }*/
+  }
+}

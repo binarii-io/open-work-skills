@@ -14,3 +14,7 @@
 - Pour rafairchir la page et charger de nouveaux élément IA il faut faire cmd + MAJ + P -> Reload Window
 
 - Vous pouvez mettre en grand le chat si vous le souhaitez
+
+- Tester phase init MCP
+
+- Le readme est l'equivalent du fichier contexte mais lisible par un humain

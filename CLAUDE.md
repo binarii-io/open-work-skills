@@ -72,6 +72,15 @@ Guide users in discovering organizational context:
 - **Context Storage**: `.context/context/context.md`
 - **Tool Compatibility**: Claude Code, VS Code Copilot
 
+## Standing Rules
+
+### Documentation — `docs/` folder (non-negotiable)
+A `docs/` folder **always** exists at the root of this repository and is the working directory for all documentation:
+- **If Local base**: `docs/` is the final documentation destination
+- **If Confluence/Notion**: `docs/` is the local staging area — documents are written here first, then pushed to the online platform
+
+Always reference and write documentation to `docs/` by default.
+
 ## Project Structure
 
 ```
