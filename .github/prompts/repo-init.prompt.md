@@ -6,58 +6,61 @@ agent: "agent"
 
 # Repository Initialization Guide
 
-I'll help you set up and configure your repository environment for: **{repository}**
+I'll help you configure your repository environment for: **{repository}**
 
-## What We'll Cover
+Complete each step below and I'll help you document everything in [.context/context/context.md](.context/context/context.md).
 
-### 1. **Dialogue Language**
-What language should be used for team interactions and documentation?
+## Step 1: Select Dialogue Language
+Which language(s) should be used for team communication and documentation?
 - **English**: For international or multilingual teams
 - **Français**: Pour les équipes francophones
-- **Other**: Specify preferred language(s)
+- **Both**: Bilingual support
+- **Other**: Specify your language(s)
 
-This setting helps customize communication and documentation generation.
+**→ Answer and I'll save this to the context file.**
 
-### 3. **Documentation Base Selection**
+## Step 2: Configure Documentation Base
 Where does your team store organizational knowledge and documentation?
-- **Confluence**: Atlassian Confluence wiki
-- **Notion**: Notion workspace
-- **Local**: Documentation stored locally (GitHub, files, etc.)
+- **Confluence**: Atlassian Confluence wiki (provide workspace URL)
+- **Notion**: Notion workspace (provide workspace URL/ID)
+- **Local**: GitHub, files, or local storage (describe location)
 
-Identify URLs, spaces, or paths where team docs live.
+**→ Provide links/URLs and I'll document this.**
 
-### 2. **MCPs (Model Context Protocol) Configuration**
+## Step 3: MCPs (Model Context Protocol) Configuration
 What MCPs should be enabled for this repository?
-- Identify which MCPs are needed (e.g., GitHub, Slack, Jira integrations)
-- Note configuration details (API keys, workspace IDs, endpoints)
-- Document which MCPs are used by which team members or workflows
 
-### 4. **Test and Verify MCPs**
+For each MCP:
+- Name (e.g., GitHub, Jira, Slack)
+- Purpose (what it's used for)
+- Configuration status (setup needed? already done?)
+- Authentication details (if applicable)
+
+**→ List the MCPs and I'll create a configuration inventory.**
+
+## Step 4: Test and Verify MCPs
 For each MCP configured:
-- Test the connection and authentication
-- Verify basic operations work (e.g., can fetch issues from Jira, can read GitHub repos)
-- Document any setup quirks or troubleshooting steps
+- Can you successfully authenticate?
+- Can you perform a basic operation? (e.g., fetch a GitHub repo, list Jira issues)
+- Any setup quirks or troubleshooting needed?
 
-### 5. **Repository Structure Documentation**
-Map the repo layout:
-- Purpose of main folders (`src/`, `docs/`, `config/`, etc.)
-- Key files and their roles (entry points, config files, etc.)
-- Build/deployment paths
-- Where to find tests, CI/CD configs, etc.
+**→ Provide test results and I'll document them.**
 
-## Output Format
+## Step 5: Document Repository Structure
+Describe your repository's main directories:
+- What's the purpose of each main folder?
+- Where are entry points, configs, build files?
+- Where are tests, CI/CD configs, documentation?
 
-Create a Markdown document that includes:
-- **Dialogue Language**: Selected language(s) for team communication and agents
-- **Documentation Base**: Links and access instructions for each platform
-- **MCPs Inventory**: Table listing each MCP, its purpose, configuration status, and test results
-- **Repository Map**: Directory structure with descriptions
-- **Connection Checklist**: Quick reference for verifying everything works
+**→ Share the structure and I'll create a map.**
 
-## Next Steps
+---
 
-After repo initialization:
-- Share MCP configs with team and validate access
-- Run context-init to document organizational context
-- Create runbooks for common tasks using the MCPs
-- Set up automation workflows leveraging the configured MCPs
+## Output
+
+Once complete, I will generate/update:
+- `.context/context/context.md` - Full repository context
+- `.github/copilot-instructions.md` - VSCode instructions
+- `CLAUDE.md` - Claude Code instructions
+
+This context will be loaded automatically by both VSCode Copilot and Claude Code.
