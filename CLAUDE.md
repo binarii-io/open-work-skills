@@ -14,7 +14,7 @@ This repository contains tools and workflows for:
 - **context-init**: Discovering and documenting organizational structure, tools, processes, and people
 - **Skills & Prompts**: Reusable onboarding and discovery workflows
 
-**See [.context/context/context.md](.context/context/context.md) for detailed context and setup status.**
+**See [.context/context.md](.context/context.md) for detailed context and setup status.**
 
 ## Key Workflows
 
@@ -69,7 +69,7 @@ Guide users in discovering organizational context:
 
 - **Team Language**: Bilingual (Français/English)
 - **Documentation Style**: Markdown
-- **Context Storage**: `.context/context/context.md`
+- **Context Storage**: `.context/context.md`
 - **Tool Compatibility**: Claude Code, VS Code Copilot
 
 ## Standing Rules
@@ -105,4 +105,4 @@ open-work-skills/
 
 ## Context Reference
 
-For detailed context about this repository's setup status, documentation bases, MCPs configuration, and organizational information, see [.context/context/context.md](.context/context/context.md).
+For detailed context about this repository's setup status, documentation bases, MCPs configuration, and organizational information, see [.context/context.md](.context/context.md).

@@ -14,7 +14,7 @@ This repository contains tools and workflows for:
 - **context-init**: Discovering and documenting organizational structure, tools, processes, and people
 - **Skills & Prompts**: Reusable onboarding and discovery workflows
 
-**See [.context/context/context.md](.context/context/context.md) for detailed context and setup status.**
+**See [.context/context.md](.context/context.md) for detailed context and setup status.**
 
 ## Key Workflows
 
@@ -69,7 +69,7 @@ Guide users in discovering organizational context:
 
 - **Team Language**: Bilingual (Français/English)
 - **Documentation Style**: Markdown
-- **Context Storage**: `.context/context/context.md`
+- **Context Storage**: `.context/context.md`
 - **Customizations**: Follow VS Code customization best practices
 
 ## Standing Rules
@@ -84,6 +84,6 @@ Always reference and write documentation to `docs/` by default.
 ## Related Resources
 
 - [Customization Documentation](.github/copilot-instructions.md)
-- [Repository Context](.context/context/context.md)
+- [Repository Context](.context/context.md)
 - [Onboarding Guide](onboarding/vscode.md)
 - [Skills Directory](skills/)

@@ -8,7 +8,7 @@ agent: "agent"
 
 I'll help you configure your repository environment for: **{repository}**
 
-Complete each step below and I'll help you document everything in [.context/context/context.md](.context/context/context.md).
+Complete each step below and I'll help you document everything in [.context/context.md](.context/context.md).
 
 ## Step 1: Select Dialogue Language
 Which language(s) should be used for team communication and documentation?

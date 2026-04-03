@@ -8,7 +8,7 @@ agent: "agent"
 
 I'll help you systematically discover and document the organizational context for: **{context}**
 
-Complete each step below and I'll help you document everything in [.context/context/context.md](.context/context/context.md).
+Complete each step below and I'll help you document everything in [.context/context.md](.context/context.md).
 
 ## Step 1: Organizational Structure
 Answer these questions:
@@ -61,7 +61,7 @@ What documentation exists?
 
 Once complete, I will:
 - Generate a structured Markdown document with all findings
-- Update [.context/context/context.md](.context/context/context.md)
+- Update [.context/context.md](.context/context.md)
 - Identify gaps and suggest improvements
 - Create a knowledge transfer guide for new team members
 
